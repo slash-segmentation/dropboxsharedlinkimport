@@ -20,7 +20,7 @@ load test_helper
   # verify $KEPLER_SH is in path if not skip this test
   skipIfKeplerNotInPath
   
-  echo "hi" > "$THE_TMP/foo.txt\?dl=1"
+  echo "hi" > "$THE_TMP/foo.txt?dl=1"
 
   
   # Run kepler.sh
